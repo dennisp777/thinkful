@@ -1,0 +1,25 @@
+
+--What was the hottest day in our data set? Where was that?
+
+SELECT
+	ZIP,
+	MAX(maxtemperaturef)
+FROM
+	weather
+GROUP BY 1
+
+--How many trips started at each station?
+
+
+
+
+
+
+
+
+--What's the shortest trip that happened?
+
+SELECT
+    min(duration)
+FROM
+    trips
